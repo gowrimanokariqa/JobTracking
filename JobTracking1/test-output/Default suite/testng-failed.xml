@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.appium.JobTracking1.Cutting">
+        <methods>
+          <include name="start"/>
+          <include name="assignedCommonBarcode"/>
+          <include name="emptyBarcode"/>
+          <include name="cuttingLogout"/>
+          <include name="invalidLogin"/>
+          <include name="alreadyCompletedBarcode"/>
+          <include name="tearDown"/>
+          <include name="assignedindividualBarcode"/>
+          <include name="InvalidBarcode"/>
+          <include name="validLogin"/>
+          <include name="adminLoginFloorApp"/>
+        </methods>
+      </class> <!-- com.appium.JobTracking1.Cutting -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
