@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="9" ignored="0" total="9" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="37145" started-at="2023-04-22T09:16:53 IST" finished-at="2023-04-22T09:17:30 IST">
+  <suite name="Default suite" duration-ms="24314" started-at="2023-04-22T12:53:10 IST" finished-at="2023-04-22T12:53:34 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="37145" started-at="2023-04-22T09:16:53 IST" finished-at="2023-04-22T09:17:30 IST">
+    <test name="Default test" duration-ms="24314" started-at="2023-04-22T12:53:10 IST" finished-at="2023-04-22T12:53:34 IST">
       <class name="com.appium.JobTracking1.Cutting">
-        <test-method status="PASS" signature="start()[pri:0, instance:com.appium.JobTracking1.Cutting@57f23557]" name="start" is-config="true" duration-ms="25628" started-at="2023-04-22T09:16:53 IST" finished-at="2023-04-22T09:17:18 IST">
+        <test-method status="PASS" signature="start()[pri:0, instance:com.appium.JobTracking1.Cutting@43d7741f]" name="start" is-config="true" duration-ms="14430" started-at="2023-04-22T12:53:10 IST" finished-at="2023-04-22T12:53:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="FAIL" signature="invalidLogin()[pri:0, instance:com.appium.JobTracking1.Cutting@57f23557]" name="invalidLogin" duration-ms="7036" started-at="2023-04-22T09:17:19 IST" finished-at="2023-04-22T09:17:26 IST">
+        <test-method status="FAIL" signature="invalidLogin()[pri:0, instance:com.appium.JobTracking1.Cutting@43d7741f]" name="invalidLogin" duration-ms="6915" started-at="2023-04-22T12:53:24 IST" finished-at="2023-04-22T12:53:31 IST">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[An element could not be located on the page using the given search parameters.
@@ -19,9 +19,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
 Driver info: io.appium.java_client.AppiumDriver
-Command: [979f7546-4a90-4367-b395-a753714af9e3, findElement {using=xpath, value=(//android.widget.Toast)[1]}]
+Command: [2c39dff6-d41f-41ad-8122-775e4c574002, findElement {using=xpath, value=(//android.widget.Toast)[1]}]
 Capabilities {appium:appActivity: com.example.jobtracking.Mai..., appium:appPackage: com.example.jobtracking, appium:databaseEnabled: false, appium:desired: {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: android, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OPPO, appium:deviceModel: CPH2421, appium:deviceName: 7T49VGSC9LB6ZTVG, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 7T49VGSC9LB6ZTVG, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:udid: 7T49VGSC9LB6ZTVG, appium:viewportRect: {height: 1392, left: 0, top: 64, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 979f7546-4a90-4367-b395-a753714af9e3]]>
+Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
@@ -29,9 +29,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
 Driver info: io.appium.java_client.AppiumDriver
-Command: [979f7546-4a90-4367-b395-a753714af9e3, findElement {using=xpath, value=(//android.widget.Toast)[1]}]
+Command: [2c39dff6-d41f-41ad-8122-775e4c574002, findElement {using=xpath, value=(//android.widget.Toast)[1]}]
 Capabilities {appium:appActivity: com.example.jobtracking.Mai..., appium:appPackage: com.example.jobtracking, appium:databaseEnabled: false, appium:desired: {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: android, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OPPO, appium:deviceModel: CPH2421, appium:deviceName: 7T49VGSC9LB6ZTVG, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 7T49VGSC9LB6ZTVG, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:udid: 7T49VGSC9LB6ZTVG, appium:viewportRect: {height: 1392, left: 0, top: 64, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 979f7546-4a90-4367-b395-a753714af9e3
+Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -81,7 +81,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLogin -->
-        <test-method status="FAIL" signature="adminLoginFloorApp()[pri:1, instance:com.appium.JobTracking1.Cutting@57f23557]" name="adminLoginFloorApp" duration-ms="1877" started-at="2023-04-22T09:17:26 IST" finished-at="2023-04-22T09:17:27 IST">
+        <test-method status="FAIL" signature="adminLoginFloorApp()[pri:1, instance:com.appium.JobTracking1.Cutting@43d7741f]" name="adminLoginFloorApp" duration-ms="1573" started-at="2023-04-22T12:53:31 IST" finished-at="2023-04-22T12:53:33 IST">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[An element could not be located on the page using the given search parameters.
@@ -89,9 +89,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
 Driver info: io.appium.java_client.AppiumDriver
-Command: [979f7546-4a90-4367-b395-a753714af9e3, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[2]}]
+Command: [2c39dff6-d41f-41ad-8122-775e4c574002, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[2]}]
 Capabilities {appium:appActivity: com.example.jobtracking.Mai..., appium:appPackage: com.example.jobtracking, appium:databaseEnabled: false, appium:desired: {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: android, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OPPO, appium:deviceModel: CPH2421, appium:deviceName: 7T49VGSC9LB6ZTVG, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 7T49VGSC9LB6ZTVG, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:udid: 7T49VGSC9LB6ZTVG, appium:viewportRect: {height: 1392, left: 0, top: 64, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 979f7546-4a90-4367-b395-a753714af9e3]]>
+Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
@@ -99,9 +99,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
 Driver info: io.appium.java_client.AppiumDriver
-Command: [979f7546-4a90-4367-b395-a753714af9e3, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[2]}]
+Command: [2c39dff6-d41f-41ad-8122-775e4c574002, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[2]}]
 Capabilities {appium:appActivity: com.example.jobtracking.Mai..., appium:appPackage: com.example.jobtracking, appium:databaseEnabled: false, appium:desired: {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: android, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OPPO, appium:deviceModel: CPH2421, appium:deviceName: 7T49VGSC9LB6ZTVG, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 7T49VGSC9LB6ZTVG, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:udid: 7T49VGSC9LB6ZTVG, appium:viewportRect: {height: 1392, left: 0, top: 64, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 979f7546-4a90-4367-b395-a753714af9e3
+Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -151,7 +151,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- adminLoginFloorApp -->
-        <test-method status="FAIL" signature="validLogin()[pri:2, instance:com.appium.JobTracking1.Cutting@57f23557]" name="validLogin" duration-ms="260" started-at="2023-04-22T09:17:27 IST" finished-at="2023-04-22T09:17:28 IST">
+        <test-method status="FAIL" signature="validLogin()[pri:2, instance:com.appium.JobTracking1.Cutting@43d7741f]" name="validLogin" duration-ms="129" started-at="2023-04-22T12:53:33 IST" finished-at="2023-04-22T12:53:33 IST">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[An element could not be located on the page using the given search parameters.
@@ -159,9 +159,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
 Driver info: io.appium.java_client.AppiumDriver
-Command: [979f7546-4a90-4367-b395-a753714af9e3, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[1]}]
+Command: [2c39dff6-d41f-41ad-8122-775e4c574002, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[1]}]
 Capabilities {appium:appActivity: com.example.jobtracking.Mai..., appium:appPackage: com.example.jobtracking, appium:databaseEnabled: false, appium:desired: {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: android, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OPPO, appium:deviceModel: CPH2421, appium:deviceName: 7T49VGSC9LB6ZTVG, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 7T49VGSC9LB6ZTVG, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:udid: 7T49VGSC9LB6ZTVG, appium:viewportRect: {height: 1392, left: 0, top: 64, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 979f7546-4a90-4367-b395-a753714af9e3]]>
+Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
@@ -169,9 +169,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
 Driver info: io.appium.java_client.AppiumDriver
-Command: [979f7546-4a90-4367-b395-a753714af9e3, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[1]}]
+Command: [2c39dff6-d41f-41ad-8122-775e4c574002, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[1]}]
 Capabilities {appium:appActivity: com.example.jobtracking.Mai..., appium:appPackage: com.example.jobtracking, appium:databaseEnabled: false, appium:desired: {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: android, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OPPO, appium:deviceModel: CPH2421, appium:deviceName: 7T49VGSC9LB6ZTVG, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 7T49VGSC9LB6ZTVG, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:udid: 7T49VGSC9LB6ZTVG, appium:viewportRect: {height: 1392, left: 0, top: 64, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 979f7546-4a90-4367-b395-a753714af9e3
+Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -221,7 +221,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method status="FAIL" signature="alreadyCompletedBarcode()[pri:3, instance:com.appium.JobTracking1.Cutting@57f23557]" name="alreadyCompletedBarcode" duration-ms="281" started-at="2023-04-22T09:17:28 IST" finished-at="2023-04-22T09:17:28 IST">
+        <test-method status="FAIL" signature="alreadyCompletedBarcode()[pri:3, instance:com.appium.JobTracking1.Cutting@43d7741f]" name="alreadyCompletedBarcode" duration-ms="110" started-at="2023-04-22T12:53:33 IST" finished-at="2023-04-22T12:53:33 IST">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[An element could not be located on the page using the given search parameters.
@@ -229,9 +229,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
 Driver info: io.appium.java_client.AppiumDriver
-Command: [979f7546-4a90-4367-b395-a753714af9e3, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ImageView[4]}]
+Command: [2c39dff6-d41f-41ad-8122-775e4c574002, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ImageView[4]}]
 Capabilities {appium:appActivity: com.example.jobtracking.Mai..., appium:appPackage: com.example.jobtracking, appium:databaseEnabled: false, appium:desired: {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: android, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OPPO, appium:deviceModel: CPH2421, appium:deviceName: 7T49VGSC9LB6ZTVG, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 7T49VGSC9LB6ZTVG, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:udid: 7T49VGSC9LB6ZTVG, appium:viewportRect: {height: 1392, left: 0, top: 64, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 979f7546-4a90-4367-b395-a753714af9e3]]>
+Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
@@ -239,9 +239,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
 Driver info: io.appium.java_client.AppiumDriver
-Command: [979f7546-4a90-4367-b395-a753714af9e3, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ImageView[4]}]
+Command: [2c39dff6-d41f-41ad-8122-775e4c574002, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ImageView[4]}]
 Capabilities {appium:appActivity: com.example.jobtracking.Mai..., appium:appPackage: com.example.jobtracking, appium:databaseEnabled: false, appium:desired: {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: android, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OPPO, appium:deviceModel: CPH2421, appium:deviceName: 7T49VGSC9LB6ZTVG, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 7T49VGSC9LB6ZTVG, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:udid: 7T49VGSC9LB6ZTVG, appium:viewportRect: {height: 1392, left: 0, top: 64, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 979f7546-4a90-4367-b395-a753714af9e3
+Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -291,7 +291,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- alreadyCompletedBarcode -->
-        <test-method status="FAIL" signature="InvalidBarcode()[pri:4, instance:com.appium.JobTracking1.Cutting@57f23557]" name="InvalidBarcode" duration-ms="285" started-at="2023-04-22T09:17:28 IST" finished-at="2023-04-22T09:17:28 IST">
+        <test-method status="FAIL" signature="InvalidBarcode()[pri:4, instance:com.appium.JobTracking1.Cutting@43d7741f]" name="InvalidBarcode" duration-ms="109" started-at="2023-04-22T12:53:33 IST" finished-at="2023-04-22T12:53:33 IST">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[An element could not be located on the page using the given search parameters.
@@ -299,9 +299,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
 Driver info: io.appium.java_client.AppiumDriver
-Command: [979f7546-4a90-4367-b395-a753714af9e3, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ImageView[4]}]
+Command: [2c39dff6-d41f-41ad-8122-775e4c574002, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ImageView[4]}]
 Capabilities {appium:appActivity: com.example.jobtracking.Mai..., appium:appPackage: com.example.jobtracking, appium:databaseEnabled: false, appium:desired: {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: android, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OPPO, appium:deviceModel: CPH2421, appium:deviceName: 7T49VGSC9LB6ZTVG, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 7T49VGSC9LB6ZTVG, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:udid: 7T49VGSC9LB6ZTVG, appium:viewportRect: {height: 1392, left: 0, top: 64, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 979f7546-4a90-4367-b395-a753714af9e3]]>
+Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
@@ -309,9 +309,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
 Driver info: io.appium.java_client.AppiumDriver
-Command: [979f7546-4a90-4367-b395-a753714af9e3, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ImageView[4]}]
+Command: [2c39dff6-d41f-41ad-8122-775e4c574002, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ImageView[4]}]
 Capabilities {appium:appActivity: com.example.jobtracking.Mai..., appium:appPackage: com.example.jobtracking, appium:databaseEnabled: false, appium:desired: {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: android, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OPPO, appium:deviceModel: CPH2421, appium:deviceName: 7T49VGSC9LB6ZTVG, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 7T49VGSC9LB6ZTVG, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:udid: 7T49VGSC9LB6ZTVG, appium:viewportRect: {height: 1392, left: 0, top: 64, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 979f7546-4a90-4367-b395-a753714af9e3
+Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -361,7 +361,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InvalidBarcode -->
-        <test-method status="FAIL" signature="emptyBarcode()[pri:5, instance:com.appium.JobTracking1.Cutting@57f23557]" name="emptyBarcode" duration-ms="223" started-at="2023-04-22T09:17:28 IST" finished-at="2023-04-22T09:17:29 IST">
+        <test-method status="FAIL" signature="emptyBarcode()[pri:5, instance:com.appium.JobTracking1.Cutting@43d7741f]" name="emptyBarcode" duration-ms="113" started-at="2023-04-22T12:53:33 IST" finished-at="2023-04-22T12:53:33 IST">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[An element could not be located on the page using the given search parameters.
@@ -369,9 +369,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
 Driver info: io.appium.java_client.AppiumDriver
-Command: [979f7546-4a90-4367-b395-a753714af9e3, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText}]
+Command: [2c39dff6-d41f-41ad-8122-775e4c574002, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText}]
 Capabilities {appium:appActivity: com.example.jobtracking.Mai..., appium:appPackage: com.example.jobtracking, appium:databaseEnabled: false, appium:desired: {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: android, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OPPO, appium:deviceModel: CPH2421, appium:deviceName: 7T49VGSC9LB6ZTVG, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 7T49VGSC9LB6ZTVG, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:udid: 7T49VGSC9LB6ZTVG, appium:viewportRect: {height: 1392, left: 0, top: 64, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 979f7546-4a90-4367-b395-a753714af9e3]]>
+Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
@@ -379,9 +379,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
 Driver info: io.appium.java_client.AppiumDriver
-Command: [979f7546-4a90-4367-b395-a753714af9e3, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText}]
+Command: [2c39dff6-d41f-41ad-8122-775e4c574002, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText}]
 Capabilities {appium:appActivity: com.example.jobtracking.Mai..., appium:appPackage: com.example.jobtracking, appium:databaseEnabled: false, appium:desired: {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: android, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OPPO, appium:deviceModel: CPH2421, appium:deviceName: 7T49VGSC9LB6ZTVG, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 7T49VGSC9LB6ZTVG, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:udid: 7T49VGSC9LB6ZTVG, appium:viewportRect: {height: 1392, left: 0, top: 64, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 979f7546-4a90-4367-b395-a753714af9e3
+Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -431,7 +431,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyBarcode -->
-        <test-method status="FAIL" signature="assignedindividualBarcode()[pri:6, instance:com.appium.JobTracking1.Cutting@57f23557]" name="assignedindividualBarcode" duration-ms="269" started-at="2023-04-22T09:17:29 IST" finished-at="2023-04-22T09:17:29 IST">
+        <test-method status="FAIL" signature="assignedindividualBarcode()[pri:6, instance:com.appium.JobTracking1.Cutting@43d7741f]" name="assignedindividualBarcode" duration-ms="109" started-at="2023-04-22T12:53:33 IST" finished-at="2023-04-22T12:53:33 IST">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[An element could not be located on the page using the given search parameters.
@@ -439,9 +439,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
 Driver info: io.appium.java_client.AppiumDriver
-Command: [979f7546-4a90-4367-b395-a753714af9e3, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText}]
+Command: [2c39dff6-d41f-41ad-8122-775e4c574002, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText}]
 Capabilities {appium:appActivity: com.example.jobtracking.Mai..., appium:appPackage: com.example.jobtracking, appium:databaseEnabled: false, appium:desired: {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: android, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OPPO, appium:deviceModel: CPH2421, appium:deviceName: 7T49VGSC9LB6ZTVG, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 7T49VGSC9LB6ZTVG, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:udid: 7T49VGSC9LB6ZTVG, appium:viewportRect: {height: 1392, left: 0, top: 64, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 979f7546-4a90-4367-b395-a753714af9e3]]>
+Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
@@ -449,9 +449,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
 Driver info: io.appium.java_client.AppiumDriver
-Command: [979f7546-4a90-4367-b395-a753714af9e3, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText}]
+Command: [2c39dff6-d41f-41ad-8122-775e4c574002, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText}]
 Capabilities {appium:appActivity: com.example.jobtracking.Mai..., appium:appPackage: com.example.jobtracking, appium:databaseEnabled: false, appium:desired: {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: android, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OPPO, appium:deviceModel: CPH2421, appium:deviceName: 7T49VGSC9LB6ZTVG, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 7T49VGSC9LB6ZTVG, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:udid: 7T49VGSC9LB6ZTVG, appium:viewportRect: {height: 1392, left: 0, top: 64, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 979f7546-4a90-4367-b395-a753714af9e3
+Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -501,7 +501,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assignedindividualBarcode -->
-        <test-method status="FAIL" signature="assignedCommonBarcode()[pri:7, instance:com.appium.JobTracking1.Cutting@57f23557]" name="assignedCommonBarcode" duration-ms="195" started-at="2023-04-22T09:17:29 IST" finished-at="2023-04-22T09:17:29 IST">
+        <test-method status="FAIL" signature="assignedCommonBarcode()[pri:7, instance:com.appium.JobTracking1.Cutting@43d7741f]" name="assignedCommonBarcode" duration-ms="109" started-at="2023-04-22T12:53:33 IST" finished-at="2023-04-22T12:53:33 IST">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[An element could not be located on the page using the given search parameters.
@@ -509,9 +509,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
 Driver info: io.appium.java_client.AppiumDriver
-Command: [979f7546-4a90-4367-b395-a753714af9e3, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ImageView[4]}]
+Command: [2c39dff6-d41f-41ad-8122-775e4c574002, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ImageView[4]}]
 Capabilities {appium:appActivity: com.example.jobtracking.Mai..., appium:appPackage: com.example.jobtracking, appium:databaseEnabled: false, appium:desired: {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: android, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OPPO, appium:deviceModel: CPH2421, appium:deviceName: 7T49VGSC9LB6ZTVG, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 7T49VGSC9LB6ZTVG, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:udid: 7T49VGSC9LB6ZTVG, appium:viewportRect: {height: 1392, left: 0, top: 64, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 979f7546-4a90-4367-b395-a753714af9e3]]>
+Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
@@ -519,9 +519,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
 Driver info: io.appium.java_client.AppiumDriver
-Command: [979f7546-4a90-4367-b395-a753714af9e3, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ImageView[4]}]
+Command: [2c39dff6-d41f-41ad-8122-775e4c574002, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ImageView[4]}]
 Capabilities {appium:appActivity: com.example.jobtracking.Mai..., appium:appPackage: com.example.jobtracking, appium:databaseEnabled: false, appium:desired: {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: android, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OPPO, appium:deviceModel: CPH2421, appium:deviceName: 7T49VGSC9LB6ZTVG, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 7T49VGSC9LB6ZTVG, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:udid: 7T49VGSC9LB6ZTVG, appium:viewportRect: {height: 1392, left: 0, top: 64, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 979f7546-4a90-4367-b395-a753714af9e3
+Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -571,7 +571,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assignedCommonBarcode -->
-        <test-method status="FAIL" signature="cuttingLogout()[pri:8, instance:com.appium.JobTracking1.Cutting@57f23557]" name="cuttingLogout" duration-ms="226" started-at="2023-04-22T09:17:29 IST" finished-at="2023-04-22T09:17:29 IST">
+        <test-method status="FAIL" signature="cuttingLogout()[pri:8, instance:com.appium.JobTracking1.Cutting@43d7741f]" name="cuttingLogout" duration-ms="128" started-at="2023-04-22T12:53:33 IST" finished-at="2023-04-22T12:53:33 IST">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[An element could not be located on the page using the given search parameters.
@@ -579,9 +579,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
 Driver info: io.appium.java_client.AppiumDriver
-Command: [979f7546-4a90-4367-b395-a753714af9e3, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ImageView[2]}]
+Command: [2c39dff6-d41f-41ad-8122-775e4c574002, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ImageView[2]}]
 Capabilities {appium:appActivity: com.example.jobtracking.Mai..., appium:appPackage: com.example.jobtracking, appium:databaseEnabled: false, appium:desired: {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: android, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OPPO, appium:deviceModel: CPH2421, appium:deviceName: 7T49VGSC9LB6ZTVG, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 7T49VGSC9LB6ZTVG, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:udid: 7T49VGSC9LB6ZTVG, appium:viewportRect: {height: 1392, left: 0, top: 64, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 979f7546-4a90-4367-b395-a753714af9e3]]>
+Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
@@ -589,9 +589,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
 Driver info: io.appium.java_client.AppiumDriver
-Command: [979f7546-4a90-4367-b395-a753714af9e3, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ImageView[2]}]
+Command: [2c39dff6-d41f-41ad-8122-775e4c574002, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ImageView[2]}]
 Capabilities {appium:appActivity: com.example.jobtracking.Mai..., appium:appPackage: com.example.jobtracking, appium:databaseEnabled: false, appium:desired: {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: android, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OPPO, appium:deviceModel: CPH2421, appium:deviceName: 7T49VGSC9LB6ZTVG, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 7T49VGSC9LB6ZTVG, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:udid: 7T49VGSC9LB6ZTVG, appium:viewportRect: {height: 1392, left: 0, top: 64, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 979f7546-4a90-4367-b395-a753714af9e3
+Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -641,7 +641,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cuttingLogout -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.appium.JobTracking1.Cutting@57f23557]" name="tearDown" is-config="true" duration-ms="627" started-at="2023-04-22T09:17:29 IST" finished-at="2023-04-22T09:17:30 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.appium.JobTracking1.Cutting@43d7741f]" name="tearDown" is-config="true" duration-ms="510" started-at="2023-04-22T12:53:33 IST" finished-at="2023-04-22T12:53:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

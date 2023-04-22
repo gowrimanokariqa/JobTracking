@@ -5,8 +5,8 @@
     <classes>
       <class name="com.appium.JobTracking1.Cutting">
         <methods>
-          <include name="start"/>
           <include name="assignedCommonBarcode"/>
+          <include name="start"/>
           <include name="emptyBarcode"/>
           <include name="cuttingLogout"/>
           <include name="invalidLogin"/>
