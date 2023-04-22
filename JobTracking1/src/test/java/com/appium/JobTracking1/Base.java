@@ -20,10 +20,24 @@ import io.appium.java_client.service.local.flags.GeneralServerFlag;
 
 public class Base {
 public AppiumDriver driver;
+public AppiumDriverLocalService service;
 	
 	@BeforeTest
 	public void start() throws MalformedURLException {
-		
+		AppiumServiceBuilder builder = new AppiumServiceBuilder ();
+        builder.withIPAddress ("0.0.0.0")
+            .usingPort (4723)
+            .withAppiumJS (
+                new File ("C:\\Users\\ADMIN\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js"))
+            .usingDriverExecutable (new File ("C:\\Program Files (x86)\\nodejs\\node.exe"))
+            .withArgument (GeneralServerFlag.BASEPATH, "/wd/hub")
+            .withArgument (GeneralServerFlag.SESSION_OVERRIDE)
+            .withTimeout(Duration.ofSeconds(300))
+            .withArgument (GeneralServerFlag.LOG_LEVEL, "debug");
+
+        service = AppiumDriverLocalService.buildService (builder);
+        service.start ();
+        
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		capabilities.setCapability("platformName", "Android");
 		capabilities.setCapability("platformVersion", "11");
@@ -77,6 +91,6 @@ public AppiumDriver driver;
 	@AfterTest
 	public void tearDown() {
 		driver.quit();
-	
+		service.stop();
 	}
 }
