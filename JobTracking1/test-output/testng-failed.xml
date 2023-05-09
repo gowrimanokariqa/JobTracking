@@ -3,21 +3,26 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.appium.JobTracking1.Cutting">
+      <class name="com.appium.JobTracking1.Shipment">
         <methods>
-          <include name="assignedCommonBarcode"/>
-          <include name="start"/>
-          <include name="emptyBarcode"/>
-          <include name="cuttingLogout"/>
-          <include name="invalidLogin"/>
-          <include name="alreadyCompletedBarcode"/>
-          <include name="tearDown"/>
-          <include name="assignedindividualBarcode"/>
-          <include name="InvalidBarcode"/>
+          <include name="overCapacityItem"/>
           <include name="validLogin"/>
-          <include name="adminLoginFloorApp"/>
+          <include name="emptyCart"/>
+          <include name="addShipmentOfAlreadyAdded"/>
+          <include name="deleteItemFromCart"/>
+          <include name="close"/>
+          <include name="addShipmentOfNewOne"/>
+          <include name="shipmentSelectionByEmpty"/>
+          <include name="invalidLogin"/>
+          <include name="start"/>
+          <include name="validShipmentSelection"/>
+          <include name="tearDown"/>
+          <include name="previousLevelNotCompleted"/>
+          <include name="viewFunctionofJob"/>
+          <include name="invalidBarcode"/>
+          <include name="extentReport"/>
         </methods>
-      </class> <!-- com.appium.JobTracking1.Cutting -->
+      </class> <!-- com.appium.JobTracking1.Shipment -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

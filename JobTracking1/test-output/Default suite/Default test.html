@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/9/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/12</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Apr 22 12:53:10 IST 2023</td>
+<td>Started on:</td><td>Tue May 02 16:22:13 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>24 seconds (24314 ms)</td>
+<tr><td>Total time:</td><td>6 seconds (6001 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -68,52 +68,51 @@ function toggleAllBoxes() {
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
 <table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.appium.JobTracking1.Cutting.cuttingLogout()'><b>cuttingLogout</b><br>Test class: com.appium.JobTracking1.Cutting</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+<td title='com.appium.JobTracking1.Shipment.start()'><b>start</b><br>Test class: com.appium.JobTracking1.Shipment</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: &apos;Command &apos;D:\\Gowri_Backup\\Android\\cmdline-tools\\platform-tools\\adb.exe -P 5037 -s 7T49VGSC9LB6ZTVG shell getprop ro.build.version.sdk&apos; exited with code 1&apos;; Command output: adb.exe: device unauthorized.
+This adb server&apos;s $ADB_VENDOR_KEYS is not set
+Try &apos;adb kill-server&apos; if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+ 
+Host info: host: &apos;DESKTOP-EE4SE6R&apos;, ip: &apos;192.168.2.106&apos;
 Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
 Driver info: io.appium.java_client.AppiumDriver
-Command: [2c39dff6-d41f-41ad-8122-775e4c574002, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ImageView[2]}]
-Capabilities {appium:appActivity: com.example.jobtracking.Mai..., appium:appPackage: com.example.jobtracking, appium:databaseEnabled: false, appium:desired: {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: android, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OPPO, appium:deviceModel: CPH2421, appium:deviceName: 7T49VGSC9LB6ZTVG, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 7T49VGSC9LB6ZTVG, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:udid: 7T49VGSC9LB6ZTVG, appium:viewportRect: {height: 1392, left: 0, top: 64, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+Command: [null, newSession {capabilities=[{appium:appActivity=com.example.jobtracking.MainActivity, appium:appPackage=com.example.jobtracking, appium:deviceName=OPPO A16e, appium:ignoreHiddenApiPolicyError=true, platformName=ANDROID, appium:platformVersion=11, appium:udid=7T49VGSC9LB6ZTVG}], desiredCapabilities=Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}}]
+Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at com.appium.JobTracking1.Cutting.cuttingLogout(Cutting.java:140)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
+	at com.appium.JobTracking1.Base.start(Base.java:51)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:808)
-	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+	at org.testng.TestRunner.run(TestRunner.java:596)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
@@ -127,45 +126,171 @@ Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1006624255", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1006624255'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+</pre></div><a href='#' onClick='toggleBox("stack-trace511707818", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace511707818'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: &apos;Command &apos;D:\\Gowri_Backup\\Android\\cmdline-tools\\platform-tools\\adb.exe -P 5037 -s 7T49VGSC9LB6ZTVG shell getprop ro.build.version.sdk&apos; exited with code 1&apos;; Command output: adb.exe: device unauthorized.
+This adb server&apos;s $ADB_VENDOR_KEYS is not set
+Try &apos;adb kill-server&apos; if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+ 
+Host info: host: &apos;DESKTOP-EE4SE6R&apos;, ip: &apos;192.168.2.106&apos;
 Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
 Driver info: io.appium.java_client.AppiumDriver
-Command: [2c39dff6-d41f-41ad-8122-775e4c574002, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ImageView[2]}]
-Capabilities {appium:appActivity: com.example.jobtracking.Mai..., appium:appPackage: com.example.jobtracking, appium:databaseEnabled: false, appium:desired: {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: android, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OPPO, appium:deviceModel: CPH2421, appium:deviceName: 7T49VGSC9LB6ZTVG, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 7T49VGSC9LB6ZTVG, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:udid: 7T49VGSC9LB6ZTVG, appium:viewportRect: {height: 1392, left: 0, top: 64, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+Command: [null, newSession {capabilities=[{appium:appActivity=com.example.jobtracking.MainActivity, appium:appPackage=com.example.jobtracking, appium:deviceName=OPPO A16e, appium:ignoreHiddenApiPolicyError=true, platformName=ANDROID, appium:platformVersion=11, appium:udid=7T49VGSC9LB6ZTVG}], desiredCapabilities=Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}}]
+Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at com.appium.JobTracking1.Cutting.cuttingLogout(Cutting.java:140)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
+	at com.appium.JobTracking1.Base.start(Base.java:51)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:808)
-	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>5</td>
+<td>com.appium.JobTracking1.Shipment@133e16fd</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.appium.JobTracking1.Shipment.tearDown()'><b>tearDown</b><br>Test class: com.appium.JobTracking1.Shipment</td>
+<td></td>
+<td>0</td>
+<td>com.appium.JobTracking1.Shipment@133e16fd</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.appium.JobTracking1.Shipment.validLogin()'><b>validLogin</b><br>Test class: com.appium.JobTracking1.Shipment</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: &apos;Command &apos;D:\\Gowri_Backup\\Android\\cmdline-tools\\platform-tools\\adb.exe -P 5037 -s 7T49VGSC9LB6ZTVG shell getprop ro.build.version.sdk&apos; exited with code 1&apos;; Command output: adb.exe: device unauthorized.
+This adb server&apos;s $ADB_VENDOR_KEYS is not set
+Try &apos;adb kill-server&apos; if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+ 
+Host info: host: &apos;DESKTOP-EE4SE6R&apos;, ip: &apos;192.168.2.106&apos;
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
+Driver info: io.appium.java_client.AppiumDriver
+Command: [null, newSession {capabilities=[{appium:appActivity=com.example.jobtracking.MainActivity, appium:appPackage=com.example.jobtracking, appium:deviceName=OPPO A16e, appium:ignoreHiddenApiPolicyError=true, platformName=ANDROID, appium:platformVersion=11, appium:udid=7T49VGSC9LB6ZTVG}], desiredCapabilities=Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}}]
+Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
+	at com.appium.JobTracking1.Base.start(Base.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1220806149", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1220806149'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: &apos;Command &apos;D:\\Gowri_Backup\\Android\\cmdline-tools\\platform-tools\\adb.exe -P 5037 -s 7T49VGSC9LB6ZTVG shell getprop ro.build.version.sdk&apos; exited with code 1&apos;; Command output: adb.exe: device unauthorized.
+This adb server&apos;s $ADB_VENDOR_KEYS is not set
+Try &apos;adb kill-server&apos; if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+ 
+Host info: host: &apos;DESKTOP-EE4SE6R&apos;, ip: &apos;192.168.2.106&apos;
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
+Driver info: io.appium.java_client.AppiumDriver
+Command: [null, newSession {capabilities=[{appium:appActivity=com.example.jobtracking.MainActivity, appium:appPackage=com.example.jobtracking, appium:deviceName=OPPO A16e, appium:ignoreHiddenApiPolicyError=true, platformName=ANDROID, appium:platformVersion=11, appium:udid=7T49VGSC9LB6ZTVG}], desiredCapabilities=Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}}]
+Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
+	at com.appium.JobTracking1.Base.start(Base.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+	at org.testng.TestRunner.run(TestRunner.java:596)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
@@ -181,47 +306,46 @@ Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.appium.JobTracking1.Cutting@43d7741f</td></tr>
+<td>com.appium.JobTracking1.Shipment@133e16fd</td></tr>
 <tr>
-<td title='com.appium.JobTracking1.Cutting.InvalidBarcode()'><b>InvalidBarcode</b><br>Test class: com.appium.JobTracking1.Cutting</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+<td title='com.appium.JobTracking1.Shipment.validShipmentSelection()'><b>validShipmentSelection</b><br>Test class: com.appium.JobTracking1.Shipment</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: &apos;Command &apos;D:\\Gowri_Backup\\Android\\cmdline-tools\\platform-tools\\adb.exe -P 5037 -s 7T49VGSC9LB6ZTVG shell getprop ro.build.version.sdk&apos; exited with code 1&apos;; Command output: adb.exe: device unauthorized.
+This adb server&apos;s $ADB_VENDOR_KEYS is not set
+Try &apos;adb kill-server&apos; if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+ 
+Host info: host: &apos;DESKTOP-EE4SE6R&apos;, ip: &apos;192.168.2.106&apos;
 Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
 Driver info: io.appium.java_client.AppiumDriver
-Command: [2c39dff6-d41f-41ad-8122-775e4c574002, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ImageView[4]}]
-Capabilities {appium:appActivity: com.example.jobtracking.Mai..., appium:appPackage: com.example.jobtracking, appium:databaseEnabled: false, appium:desired: {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: android, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OPPO, appium:deviceModel: CPH2421, appium:deviceName: 7T49VGSC9LB6ZTVG, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 7T49VGSC9LB6ZTVG, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:udid: 7T49VGSC9LB6ZTVG, appium:viewportRect: {height: 1392, left: 0, top: 64, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+Command: [null, newSession {capabilities=[{appium:appActivity=com.example.jobtracking.MainActivity, appium:appPackage=com.example.jobtracking, appium:deviceName=OPPO A16e, appium:ignoreHiddenApiPolicyError=true, platformName=ANDROID, appium:platformVersion=11, appium:udid=7T49VGSC9LB6ZTVG}], desiredCapabilities=Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}}]
+Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at com.appium.JobTracking1.Cutting.InvalidBarcode(Cutting.java:77)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
+	at com.appium.JobTracking1.Base.start(Base.java:51)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:808)
-	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+	at org.testng.TestRunner.run(TestRunner.java:596)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
@@ -235,45 +359,44 @@ Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1419125235", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1419125235'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+</pre></div><a href='#' onClick='toggleBox("stack-trace454160179", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace454160179'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: &apos;Command &apos;D:\\Gowri_Backup\\Android\\cmdline-tools\\platform-tools\\adb.exe -P 5037 -s 7T49VGSC9LB6ZTVG shell getprop ro.build.version.sdk&apos; exited with code 1&apos;; Command output: adb.exe: device unauthorized.
+This adb server&apos;s $ADB_VENDOR_KEYS is not set
+Try &apos;adb kill-server&apos; if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+ 
+Host info: host: &apos;DESKTOP-EE4SE6R&apos;, ip: &apos;192.168.2.106&apos;
 Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
 Driver info: io.appium.java_client.AppiumDriver
-Command: [2c39dff6-d41f-41ad-8122-775e4c574002, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ImageView[4]}]
-Capabilities {appium:appActivity: com.example.jobtracking.Mai..., appium:appPackage: com.example.jobtracking, appium:databaseEnabled: false, appium:desired: {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: android, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OPPO, appium:deviceModel: CPH2421, appium:deviceName: 7T49VGSC9LB6ZTVG, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 7T49VGSC9LB6ZTVG, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:udid: 7T49VGSC9LB6ZTVG, appium:viewportRect: {height: 1392, left: 0, top: 64, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+Command: [null, newSession {capabilities=[{appium:appActivity=com.example.jobtracking.MainActivity, appium:appPackage=com.example.jobtracking, appium:deviceName=OPPO A16e, appium:ignoreHiddenApiPolicyError=true, platformName=ANDROID, appium:platformVersion=11, appium:udid=7T49VGSC9LB6ZTVG}], desiredCapabilities=Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}}]
+Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at com.appium.JobTracking1.Cutting.InvalidBarcode(Cutting.java:77)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
+	at com.appium.JobTracking1.Base.start(Base.java:51)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:808)
-	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+	at org.testng.TestRunner.run(TestRunner.java:596)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
@@ -289,47 +412,46 @@ Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.appium.JobTracking1.Cutting@43d7741f</td></tr>
+<td>com.appium.JobTracking1.Shipment@133e16fd</td></tr>
 <tr>
-<td title='com.appium.JobTracking1.Cutting.validLogin()'><b>validLogin</b><br>Test class: com.appium.JobTracking1.Cutting</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+<td title='com.appium.JobTracking1.Shipment.emptyCart()'><b>emptyCart</b><br>Test class: com.appium.JobTracking1.Shipment</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: &apos;Command &apos;D:\\Gowri_Backup\\Android\\cmdline-tools\\platform-tools\\adb.exe -P 5037 -s 7T49VGSC9LB6ZTVG shell getprop ro.build.version.sdk&apos; exited with code 1&apos;; Command output: adb.exe: device unauthorized.
+This adb server&apos;s $ADB_VENDOR_KEYS is not set
+Try &apos;adb kill-server&apos; if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+ 
+Host info: host: &apos;DESKTOP-EE4SE6R&apos;, ip: &apos;192.168.2.106&apos;
 Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
 Driver info: io.appium.java_client.AppiumDriver
-Command: [2c39dff6-d41f-41ad-8122-775e4c574002, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[1]}]
-Capabilities {appium:appActivity: com.example.jobtracking.Mai..., appium:appPackage: com.example.jobtracking, appium:databaseEnabled: false, appium:desired: {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: android, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OPPO, appium:deviceModel: CPH2421, appium:deviceName: 7T49VGSC9LB6ZTVG, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 7T49VGSC9LB6ZTVG, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:udid: 7T49VGSC9LB6ZTVG, appium:viewportRect: {height: 1392, left: 0, top: 64, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+Command: [null, newSession {capabilities=[{appium:appActivity=com.example.jobtracking.MainActivity, appium:appPackage=com.example.jobtracking, appium:deviceName=OPPO A16e, appium:ignoreHiddenApiPolicyError=true, platformName=ANDROID, appium:platformVersion=11, appium:udid=7T49VGSC9LB6ZTVG}], desiredCapabilities=Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}}]
+Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at com.appium.JobTracking1.Cutting.validLogin(Cutting.java:46)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
+	at com.appium.JobTracking1.Base.start(Base.java:51)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:808)
-	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+	at org.testng.TestRunner.run(TestRunner.java:596)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
@@ -343,45 +465,44 @@ Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1780293706", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1780293706'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+</pre></div><a href='#' onClick='toggleBox("stack-trace1827303532", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1827303532'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: &apos;Command &apos;D:\\Gowri_Backup\\Android\\cmdline-tools\\platform-tools\\adb.exe -P 5037 -s 7T49VGSC9LB6ZTVG shell getprop ro.build.version.sdk&apos; exited with code 1&apos;; Command output: adb.exe: device unauthorized.
+This adb server&apos;s $ADB_VENDOR_KEYS is not set
+Try &apos;adb kill-server&apos; if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+ 
+Host info: host: &apos;DESKTOP-EE4SE6R&apos;, ip: &apos;192.168.2.106&apos;
 Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
 Driver info: io.appium.java_client.AppiumDriver
-Command: [2c39dff6-d41f-41ad-8122-775e4c574002, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[1]}]
-Capabilities {appium:appActivity: com.example.jobtracking.Mai..., appium:appPackage: com.example.jobtracking, appium:databaseEnabled: false, appium:desired: {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: android, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OPPO, appium:deviceModel: CPH2421, appium:deviceName: 7T49VGSC9LB6ZTVG, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 7T49VGSC9LB6ZTVG, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:udid: 7T49VGSC9LB6ZTVG, appium:viewportRect: {height: 1392, left: 0, top: 64, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+Command: [null, newSession {capabilities=[{appium:appActivity=com.example.jobtracking.MainActivity, appium:appPackage=com.example.jobtracking, appium:deviceName=OPPO A16e, appium:ignoreHiddenApiPolicyError=true, platformName=ANDROID, appium:platformVersion=11, appium:udid=7T49VGSC9LB6ZTVG}], desiredCapabilities=Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}}]
+Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at com.appium.JobTracking1.Cutting.validLogin(Cutting.java:46)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
+	at com.appium.JobTracking1.Base.start(Base.java:51)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:808)
-	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+	at org.testng.TestRunner.run(TestRunner.java:596)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
@@ -397,47 +518,46 @@ Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.appium.JobTracking1.Cutting@43d7741f</td></tr>
+<td>com.appium.JobTracking1.Shipment@133e16fd</td></tr>
 <tr>
-<td title='com.appium.JobTracking1.Cutting.assignedCommonBarcode()'><b>assignedCommonBarcode</b><br>Test class: com.appium.JobTracking1.Cutting</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+<td title='com.appium.JobTracking1.Shipment.previousLevelNotCompleted()'><b>previousLevelNotCompleted</b><br>Test class: com.appium.JobTracking1.Shipment</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: &apos;Command &apos;D:\\Gowri_Backup\\Android\\cmdline-tools\\platform-tools\\adb.exe -P 5037 -s 7T49VGSC9LB6ZTVG shell getprop ro.build.version.sdk&apos; exited with code 1&apos;; Command output: adb.exe: device unauthorized.
+This adb server&apos;s $ADB_VENDOR_KEYS is not set
+Try &apos;adb kill-server&apos; if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+ 
+Host info: host: &apos;DESKTOP-EE4SE6R&apos;, ip: &apos;192.168.2.106&apos;
 Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
 Driver info: io.appium.java_client.AppiumDriver
-Command: [2c39dff6-d41f-41ad-8122-775e4c574002, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ImageView[4]}]
-Capabilities {appium:appActivity: com.example.jobtracking.Mai..., appium:appPackage: com.example.jobtracking, appium:databaseEnabled: false, appium:desired: {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: android, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OPPO, appium:deviceModel: CPH2421, appium:deviceName: 7T49VGSC9LB6ZTVG, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 7T49VGSC9LB6ZTVG, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:udid: 7T49VGSC9LB6ZTVG, appium:viewportRect: {height: 1392, left: 0, top: 64, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+Command: [null, newSession {capabilities=[{appium:appActivity=com.example.jobtracking.MainActivity, appium:appPackage=com.example.jobtracking, appium:deviceName=OPPO A16e, appium:ignoreHiddenApiPolicyError=true, platformName=ANDROID, appium:platformVersion=11, appium:udid=7T49VGSC9LB6ZTVG}], desiredCapabilities=Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}}]
+Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at com.appium.JobTracking1.Cutting.assignedCommonBarcode(Cutting.java:118)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
+	at com.appium.JobTracking1.Base.start(Base.java:51)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:808)
-	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+	at org.testng.TestRunner.run(TestRunner.java:596)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
@@ -451,45 +571,44 @@ Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace732597634", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace732597634'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+</pre></div><a href='#' onClick='toggleBox("stack-trace1428494531", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1428494531'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: &apos;Command &apos;D:\\Gowri_Backup\\Android\\cmdline-tools\\platform-tools\\adb.exe -P 5037 -s 7T49VGSC9LB6ZTVG shell getprop ro.build.version.sdk&apos; exited with code 1&apos;; Command output: adb.exe: device unauthorized.
+This adb server&apos;s $ADB_VENDOR_KEYS is not set
+Try &apos;adb kill-server&apos; if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+ 
+Host info: host: &apos;DESKTOP-EE4SE6R&apos;, ip: &apos;192.168.2.106&apos;
 Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
 Driver info: io.appium.java_client.AppiumDriver
-Command: [2c39dff6-d41f-41ad-8122-775e4c574002, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ImageView[4]}]
-Capabilities {appium:appActivity: com.example.jobtracking.Mai..., appium:appPackage: com.example.jobtracking, appium:databaseEnabled: false, appium:desired: {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: android, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OPPO, appium:deviceModel: CPH2421, appium:deviceName: 7T49VGSC9LB6ZTVG, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 7T49VGSC9LB6ZTVG, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:udid: 7T49VGSC9LB6ZTVG, appium:viewportRect: {height: 1392, left: 0, top: 64, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+Command: [null, newSession {capabilities=[{appium:appActivity=com.example.jobtracking.MainActivity, appium:appPackage=com.example.jobtracking, appium:deviceName=OPPO A16e, appium:ignoreHiddenApiPolicyError=true, platformName=ANDROID, appium:platformVersion=11, appium:udid=7T49VGSC9LB6ZTVG}], desiredCapabilities=Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}}]
+Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at com.appium.JobTracking1.Cutting.assignedCommonBarcode(Cutting.java:118)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
+	at com.appium.JobTracking1.Base.start(Base.java:51)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:808)
-	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+	at org.testng.TestRunner.run(TestRunner.java:596)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
@@ -505,47 +624,46 @@ Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.appium.JobTracking1.Cutting@43d7741f</td></tr>
+<td>com.appium.JobTracking1.Shipment@133e16fd</td></tr>
 <tr>
-<td title='com.appium.JobTracking1.Cutting.invalidLogin()'><b>invalidLogin</b><br>Test class: com.appium.JobTracking1.Cutting</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+<td title='com.appium.JobTracking1.Shipment.addShipmentOfNewOne()'><b>addShipmentOfNewOne</b><br>Test class: com.appium.JobTracking1.Shipment</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: &apos;Command &apos;D:\\Gowri_Backup\\Android\\cmdline-tools\\platform-tools\\adb.exe -P 5037 -s 7T49VGSC9LB6ZTVG shell getprop ro.build.version.sdk&apos; exited with code 1&apos;; Command output: adb.exe: device unauthorized.
+This adb server&apos;s $ADB_VENDOR_KEYS is not set
+Try &apos;adb kill-server&apos; if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+ 
+Host info: host: &apos;DESKTOP-EE4SE6R&apos;, ip: &apos;192.168.2.106&apos;
 Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
 Driver info: io.appium.java_client.AppiumDriver
-Command: [2c39dff6-d41f-41ad-8122-775e4c574002, findElement {using=xpath, value=(//android.widget.Toast)[1]}]
-Capabilities {appium:appActivity: com.example.jobtracking.Mai..., appium:appPackage: com.example.jobtracking, appium:databaseEnabled: false, appium:desired: {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: android, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OPPO, appium:deviceModel: CPH2421, appium:deviceName: 7T49VGSC9LB6ZTVG, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 7T49VGSC9LB6ZTVG, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:udid: 7T49VGSC9LB6ZTVG, appium:viewportRect: {height: 1392, left: 0, top: 64, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+Command: [null, newSession {capabilities=[{appium:appActivity=com.example.jobtracking.MainActivity, appium:appPackage=com.example.jobtracking, appium:deviceName=OPPO A16e, appium:ignoreHiddenApiPolicyError=true, platformName=ANDROID, appium:platformVersion=11, appium:udid=7T49VGSC9LB6ZTVG}], desiredCapabilities=Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}}]
+Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at com.appium.JobTracking1.Cutting.invalidLogin(Cutting.java:22)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
+	at com.appium.JobTracking1.Base.start(Base.java:51)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:808)
-	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+	at org.testng.TestRunner.run(TestRunner.java:596)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
@@ -559,261 +677,44 @@ Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace293474277", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace293474277'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+</pre></div><a href='#' onClick='toggleBox("stack-trace637091966", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace637091966'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: &apos;Command &apos;D:\\Gowri_Backup\\Android\\cmdline-tools\\platform-tools\\adb.exe -P 5037 -s 7T49VGSC9LB6ZTVG shell getprop ro.build.version.sdk&apos; exited with code 1&apos;; Command output: adb.exe: device unauthorized.
+This adb server&apos;s $ADB_VENDOR_KEYS is not set
+Try &apos;adb kill-server&apos; if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+ 
+Host info: host: &apos;DESKTOP-EE4SE6R&apos;, ip: &apos;192.168.2.106&apos;
 Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
 Driver info: io.appium.java_client.AppiumDriver
-Command: [2c39dff6-d41f-41ad-8122-775e4c574002, findElement {using=xpath, value=(//android.widget.Toast)[1]}]
-Capabilities {appium:appActivity: com.example.jobtracking.Mai..., appium:appPackage: com.example.jobtracking, appium:databaseEnabled: false, appium:desired: {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: android, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OPPO, appium:deviceModel: CPH2421, appium:deviceName: 7T49VGSC9LB6ZTVG, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 7T49VGSC9LB6ZTVG, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:udid: 7T49VGSC9LB6ZTVG, appium:viewportRect: {height: 1392, left: 0, top: 64, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+Command: [null, newSession {capabilities=[{appium:appActivity=com.example.jobtracking.MainActivity, appium:appPackage=com.example.jobtracking, appium:deviceName=OPPO A16e, appium:ignoreHiddenApiPolicyError=true, platformName=ANDROID, appium:platformVersion=11, appium:udid=7T49VGSC9LB6ZTVG}], desiredCapabilities=Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}}]
+Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at com.appium.JobTracking1.Cutting.invalidLogin(Cutting.java:22)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
+	at com.appium.JobTracking1.Base.start(Base.java:51)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:808)
-	at org.testng.TestRunner.run(TestRunner.java:603)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.runSuites(TestNG.java:1092)
-	at org.testng.TestNG.run(TestNG.java:1060)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>6</td>
-<td>com.appium.JobTracking1.Cutting@43d7741f</td></tr>
-<tr>
-<td title='com.appium.JobTracking1.Cutting.adminLoginFloorApp()'><b>adminLoginFloorApp</b><br>Test class: com.appium.JobTracking1.Cutting</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
-Driver info: io.appium.java_client.AppiumDriver
-Command: [2c39dff6-d41f-41ad-8122-775e4c574002, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[2]}]
-Capabilities {appium:appActivity: com.example.jobtracking.Mai..., appium:appPackage: com.example.jobtracking, appium:databaseEnabled: false, appium:desired: {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: android, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OPPO, appium:deviceModel: CPH2421, appium:deviceName: 7T49VGSC9LB6ZTVG, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 7T49VGSC9LB6ZTVG, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:udid: 7T49VGSC9LB6ZTVG, appium:viewportRect: {height: 1392, left: 0, top: 64, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at com.appium.JobTracking1.Cutting.adminLoginFloorApp(Cutting.java:33)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:808)
-	at org.testng.TestRunner.run(TestRunner.java:603)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.runSuites(TestNG.java:1092)
-	at org.testng.TestNG.run(TestNG.java:1060)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1850874910", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1850874910'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
-Driver info: io.appium.java_client.AppiumDriver
-Command: [2c39dff6-d41f-41ad-8122-775e4c574002, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[2]}]
-Capabilities {appium:appActivity: com.example.jobtracking.Mai..., appium:appPackage: com.example.jobtracking, appium:databaseEnabled: false, appium:desired: {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: android, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OPPO, appium:deviceModel: CPH2421, appium:deviceName: 7T49VGSC9LB6ZTVG, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 7T49VGSC9LB6ZTVG, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:udid: 7T49VGSC9LB6ZTVG, appium:viewportRect: {height: 1392, left: 0, top: 64, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at com.appium.JobTracking1.Cutting.adminLoginFloorApp(Cutting.java:33)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:808)
-	at org.testng.TestRunner.run(TestRunner.java:603)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.runSuites(TestNG.java:1092)
-	at org.testng.TestNG.run(TestNG.java:1060)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>1</td>
-<td>com.appium.JobTracking1.Cutting@43d7741f</td></tr>
-<tr>
-<td title='com.appium.JobTracking1.Cutting.alreadyCompletedBarcode()'><b>alreadyCompletedBarcode</b><br>Test class: com.appium.JobTracking1.Cutting</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
-Driver info: io.appium.java_client.AppiumDriver
-Command: [2c39dff6-d41f-41ad-8122-775e4c574002, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ImageView[4]}]
-Capabilities {appium:appActivity: com.example.jobtracking.Mai..., appium:appPackage: com.example.jobtracking, appium:databaseEnabled: false, appium:desired: {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: android, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OPPO, appium:deviceModel: CPH2421, appium:deviceName: 7T49VGSC9LB6ZTVG, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 7T49VGSC9LB6ZTVG, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:udid: 7T49VGSC9LB6ZTVG, appium:viewportRect: {height: 1392, left: 0, top: 64, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at com.appium.JobTracking1.Cutting.alreadyCompletedBarcode(Cutting.java:61)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:808)
-	at org.testng.TestRunner.run(TestRunner.java:603)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.runSuites(TestNG.java:1092)
-	at org.testng.TestNG.run(TestNG.java:1060)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1076966140", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1076966140'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
-Driver info: io.appium.java_client.AppiumDriver
-Command: [2c39dff6-d41f-41ad-8122-775e4c574002, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ImageView[4]}]
-Capabilities {appium:appActivity: com.example.jobtracking.Mai..., appium:appPackage: com.example.jobtracking, appium:databaseEnabled: false, appium:desired: {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: android, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OPPO, appium:deviceModel: CPH2421, appium:deviceName: 7T49VGSC9LB6ZTVG, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 7T49VGSC9LB6ZTVG, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:udid: 7T49VGSC9LB6ZTVG, appium:viewportRect: {height: 1392, left: 0, top: 64, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at com.appium.JobTracking1.Cutting.alreadyCompletedBarcode(Cutting.java:61)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:808)
-	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+	at org.testng.TestRunner.run(TestRunner.java:596)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
@@ -829,47 +730,46 @@ Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.appium.JobTracking1.Cutting@43d7741f</td></tr>
+<td>com.appium.JobTracking1.Shipment@133e16fd</td></tr>
 <tr>
-<td title='com.appium.JobTracking1.Cutting.emptyBarcode()'><b>emptyBarcode</b><br>Test class: com.appium.JobTracking1.Cutting</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+<td title='com.appium.JobTracking1.Shipment.invalidBarcode()'><b>invalidBarcode</b><br>Test class: com.appium.JobTracking1.Shipment</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: &apos;Command &apos;D:\\Gowri_Backup\\Android\\cmdline-tools\\platform-tools\\adb.exe -P 5037 -s 7T49VGSC9LB6ZTVG shell getprop ro.build.version.sdk&apos; exited with code 1&apos;; Command output: adb.exe: device unauthorized.
+This adb server&apos;s $ADB_VENDOR_KEYS is not set
+Try &apos;adb kill-server&apos; if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+ 
+Host info: host: &apos;DESKTOP-EE4SE6R&apos;, ip: &apos;192.168.2.106&apos;
 Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
 Driver info: io.appium.java_client.AppiumDriver
-Command: [2c39dff6-d41f-41ad-8122-775e4c574002, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText}]
-Capabilities {appium:appActivity: com.example.jobtracking.Mai..., appium:appPackage: com.example.jobtracking, appium:databaseEnabled: false, appium:desired: {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: android, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OPPO, appium:deviceModel: CPH2421, appium:deviceName: 7T49VGSC9LB6ZTVG, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 7T49VGSC9LB6ZTVG, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:udid: 7T49VGSC9LB6ZTVG, appium:viewportRect: {height: 1392, left: 0, top: 64, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+Command: [null, newSession {capabilities=[{appium:appActivity=com.example.jobtracking.MainActivity, appium:appPackage=com.example.jobtracking, appium:deviceName=OPPO A16e, appium:ignoreHiddenApiPolicyError=true, platformName=ANDROID, appium:platformVersion=11, appium:udid=7T49VGSC9LB6ZTVG}], desiredCapabilities=Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}}]
+Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at com.appium.JobTracking1.Cutting.emptyBarcode(Cutting.java:92)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
+	at com.appium.JobTracking1.Base.start(Base.java:51)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:808)
-	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+	at org.testng.TestRunner.run(TestRunner.java:596)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
@@ -883,45 +783,44 @@ Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1959708563", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1959708563'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+</pre></div><a href='#' onClick='toggleBox("stack-trace791408866", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace791408866'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: &apos;Command &apos;D:\\Gowri_Backup\\Android\\cmdline-tools\\platform-tools\\adb.exe -P 5037 -s 7T49VGSC9LB6ZTVG shell getprop ro.build.version.sdk&apos; exited with code 1&apos;; Command output: adb.exe: device unauthorized.
+This adb server&apos;s $ADB_VENDOR_KEYS is not set
+Try &apos;adb kill-server&apos; if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+ 
+Host info: host: &apos;DESKTOP-EE4SE6R&apos;, ip: &apos;192.168.2.106&apos;
 Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
 Driver info: io.appium.java_client.AppiumDriver
-Command: [2c39dff6-d41f-41ad-8122-775e4c574002, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText}]
-Capabilities {appium:appActivity: com.example.jobtracking.Mai..., appium:appPackage: com.example.jobtracking, appium:databaseEnabled: false, appium:desired: {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: android, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OPPO, appium:deviceModel: CPH2421, appium:deviceName: 7T49VGSC9LB6ZTVG, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 7T49VGSC9LB6ZTVG, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:udid: 7T49VGSC9LB6ZTVG, appium:viewportRect: {height: 1392, left: 0, top: 64, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+Command: [null, newSession {capabilities=[{appium:appActivity=com.example.jobtracking.MainActivity, appium:appPackage=com.example.jobtracking, appium:deviceName=OPPO A16e, appium:ignoreHiddenApiPolicyError=true, platformName=ANDROID, appium:platformVersion=11, appium:udid=7T49VGSC9LB6ZTVG}], desiredCapabilities=Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}}]
+Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at com.appium.JobTracking1.Cutting.emptyBarcode(Cutting.java:92)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
+	at com.appium.JobTracking1.Base.start(Base.java:51)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:808)
-	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+	at org.testng.TestRunner.run(TestRunner.java:596)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
@@ -937,47 +836,46 @@ Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.appium.JobTracking1.Cutting@43d7741f</td></tr>
+<td>com.appium.JobTracking1.Shipment@133e16fd</td></tr>
 <tr>
-<td title='com.appium.JobTracking1.Cutting.assignedindividualBarcode()'><b>assignedindividualBarcode</b><br>Test class: com.appium.JobTracking1.Cutting</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+<td title='com.appium.JobTracking1.Shipment.addShipmentOfAlreadyAdded()'><b>addShipmentOfAlreadyAdded</b><br>Test class: com.appium.JobTracking1.Shipment</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: &apos;Command &apos;D:\\Gowri_Backup\\Android\\cmdline-tools\\platform-tools\\adb.exe -P 5037 -s 7T49VGSC9LB6ZTVG shell getprop ro.build.version.sdk&apos; exited with code 1&apos;; Command output: adb.exe: device unauthorized.
+This adb server&apos;s $ADB_VENDOR_KEYS is not set
+Try &apos;adb kill-server&apos; if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+ 
+Host info: host: &apos;DESKTOP-EE4SE6R&apos;, ip: &apos;192.168.2.106&apos;
 Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
 Driver info: io.appium.java_client.AppiumDriver
-Command: [2c39dff6-d41f-41ad-8122-775e4c574002, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText}]
-Capabilities {appium:appActivity: com.example.jobtracking.Mai..., appium:appPackage: com.example.jobtracking, appium:databaseEnabled: false, appium:desired: {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: android, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OPPO, appium:deviceModel: CPH2421, appium:deviceName: 7T49VGSC9LB6ZTVG, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 7T49VGSC9LB6ZTVG, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:udid: 7T49VGSC9LB6ZTVG, appium:viewportRect: {height: 1392, left: 0, top: 64, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+Command: [null, newSession {capabilities=[{appium:appActivity=com.example.jobtracking.MainActivity, appium:appPackage=com.example.jobtracking, appium:deviceName=OPPO A16e, appium:ignoreHiddenApiPolicyError=true, platformName=ANDROID, appium:platformVersion=11, appium:udid=7T49VGSC9LB6ZTVG}], desiredCapabilities=Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}}]
+Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at com.appium.JobTracking1.Cutting.assignedindividualBarcode(Cutting.java:103)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
+	at com.appium.JobTracking1.Base.start(Base.java:51)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:808)
-	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+	at org.testng.TestRunner.run(TestRunner.java:596)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
@@ -991,45 +889,44 @@ Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace26357357", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace26357357'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+</pre></div><a href='#' onClick='toggleBox("stack-trace1004009692", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1004009692'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: &apos;Command &apos;D:\\Gowri_Backup\\Android\\cmdline-tools\\platform-tools\\adb.exe -P 5037 -s 7T49VGSC9LB6ZTVG shell getprop ro.build.version.sdk&apos; exited with code 1&apos;; Command output: adb.exe: device unauthorized.
+This adb server&apos;s $ADB_VENDOR_KEYS is not set
+Try &apos;adb kill-server&apos; if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+ 
+Host info: host: &apos;DESKTOP-EE4SE6R&apos;, ip: &apos;192.168.2.106&apos;
 Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
 Driver info: io.appium.java_client.AppiumDriver
-Command: [2c39dff6-d41f-41ad-8122-775e4c574002, findElement {using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText}]
-Capabilities {appium:appActivity: com.example.jobtracking.Mai..., appium:appPackage: com.example.jobtracking, appium:databaseEnabled: false, appium:desired: {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: android, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}, appium:deviceApiLevel: 30, appium:deviceManufacturer: OPPO, appium:deviceModel: CPH2421, appium:deviceName: 7T49VGSC9LB6ZTVG, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1600, appium:deviceUDID: 7T49VGSC9LB6ZTVG, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 64, appium:takesScreenshot: true, appium:udid: 7T49VGSC9LB6ZTVG, appium:viewportRect: {height: 1392, left: 0, top: 64, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+Command: [null, newSession {capabilities=[{appium:appActivity=com.example.jobtracking.MainActivity, appium:appPackage=com.example.jobtracking, appium:deviceName=OPPO A16e, appium:ignoreHiddenApiPolicyError=true, platformName=ANDROID, appium:platformVersion=11, appium:udid=7T49VGSC9LB6ZTVG}], desiredCapabilities=Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}}]
+Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at com.appium.JobTracking1.Cutting.assignedindividualBarcode(Cutting.java:103)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
+	at com.appium.JobTracking1.Base.start(Base.java:51)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:808)
-	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+	at org.testng.TestRunner.run(TestRunner.java:596)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
@@ -1045,7 +942,537 @@ Session ID: 2c39dff6-d41f-41ad-8122-775e4c574002
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.appium.JobTracking1.Cutting@43d7741f</td></tr>
+<td>com.appium.JobTracking1.Shipment@133e16fd</td></tr>
+<tr>
+<td title='com.appium.JobTracking1.Shipment.deleteItemFromCart()'><b>deleteItemFromCart</b><br>Test class: com.appium.JobTracking1.Shipment</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: &apos;Command &apos;D:\\Gowri_Backup\\Android\\cmdline-tools\\platform-tools\\adb.exe -P 5037 -s 7T49VGSC9LB6ZTVG shell getprop ro.build.version.sdk&apos; exited with code 1&apos;; Command output: adb.exe: device unauthorized.
+This adb server&apos;s $ADB_VENDOR_KEYS is not set
+Try &apos;adb kill-server&apos; if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+ 
+Host info: host: &apos;DESKTOP-EE4SE6R&apos;, ip: &apos;192.168.2.106&apos;
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
+Driver info: io.appium.java_client.AppiumDriver
+Command: [null, newSession {capabilities=[{appium:appActivity=com.example.jobtracking.MainActivity, appium:appPackage=com.example.jobtracking, appium:deviceName=OPPO A16e, appium:ignoreHiddenApiPolicyError=true, platformName=ANDROID, appium:platformVersion=11, appium:udid=7T49VGSC9LB6ZTVG}], desiredCapabilities=Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}}]
+Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
+	at com.appium.JobTracking1.Base.start(Base.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace569138567", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace569138567'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: &apos;Command &apos;D:\\Gowri_Backup\\Android\\cmdline-tools\\platform-tools\\adb.exe -P 5037 -s 7T49VGSC9LB6ZTVG shell getprop ro.build.version.sdk&apos; exited with code 1&apos;; Command output: adb.exe: device unauthorized.
+This adb server&apos;s $ADB_VENDOR_KEYS is not set
+Try &apos;adb kill-server&apos; if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+ 
+Host info: host: &apos;DESKTOP-EE4SE6R&apos;, ip: &apos;192.168.2.106&apos;
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
+Driver info: io.appium.java_client.AppiumDriver
+Command: [null, newSession {capabilities=[{appium:appActivity=com.example.jobtracking.MainActivity, appium:appPackage=com.example.jobtracking, appium:deviceName=OPPO A16e, appium:ignoreHiddenApiPolicyError=true, platformName=ANDROID, appium:platformVersion=11, appium:udid=7T49VGSC9LB6ZTVG}], desiredCapabilities=Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}}]
+Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
+	at com.appium.JobTracking1.Base.start(Base.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.appium.JobTracking1.Shipment@133e16fd</td></tr>
+<tr>
+<td title='com.appium.JobTracking1.Shipment.shipmentSelectionByEmpty()'><b>shipmentSelectionByEmpty</b><br>Test class: com.appium.JobTracking1.Shipment</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: &apos;Command &apos;D:\\Gowri_Backup\\Android\\cmdline-tools\\platform-tools\\adb.exe -P 5037 -s 7T49VGSC9LB6ZTVG shell getprop ro.build.version.sdk&apos; exited with code 1&apos;; Command output: adb.exe: device unauthorized.
+This adb server&apos;s $ADB_VENDOR_KEYS is not set
+Try &apos;adb kill-server&apos; if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+ 
+Host info: host: &apos;DESKTOP-EE4SE6R&apos;, ip: &apos;192.168.2.106&apos;
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
+Driver info: io.appium.java_client.AppiumDriver
+Command: [null, newSession {capabilities=[{appium:appActivity=com.example.jobtracking.MainActivity, appium:appPackage=com.example.jobtracking, appium:deviceName=OPPO A16e, appium:ignoreHiddenApiPolicyError=true, platformName=ANDROID, appium:platformVersion=11, appium:udid=7T49VGSC9LB6ZTVG}], desiredCapabilities=Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}}]
+Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
+	at com.appium.JobTracking1.Base.start(Base.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1410367298", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1410367298'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: &apos;Command &apos;D:\\Gowri_Backup\\Android\\cmdline-tools\\platform-tools\\adb.exe -P 5037 -s 7T49VGSC9LB6ZTVG shell getprop ro.build.version.sdk&apos; exited with code 1&apos;; Command output: adb.exe: device unauthorized.
+This adb server&apos;s $ADB_VENDOR_KEYS is not set
+Try &apos;adb kill-server&apos; if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+ 
+Host info: host: &apos;DESKTOP-EE4SE6R&apos;, ip: &apos;192.168.2.106&apos;
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
+Driver info: io.appium.java_client.AppiumDriver
+Command: [null, newSession {capabilities=[{appium:appActivity=com.example.jobtracking.MainActivity, appium:appPackage=com.example.jobtracking, appium:deviceName=OPPO A16e, appium:ignoreHiddenApiPolicyError=true, platformName=ANDROID, appium:platformVersion=11, appium:udid=7T49VGSC9LB6ZTVG}], desiredCapabilities=Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}}]
+Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
+	at com.appium.JobTracking1.Base.start(Base.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.appium.JobTracking1.Shipment@133e16fd</td></tr>
+<tr>
+<td title='com.appium.JobTracking1.Shipment.overCapacityItem()'><b>overCapacityItem</b><br>Test class: com.appium.JobTracking1.Shipment</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: &apos;Command &apos;D:\\Gowri_Backup\\Android\\cmdline-tools\\platform-tools\\adb.exe -P 5037 -s 7T49VGSC9LB6ZTVG shell getprop ro.build.version.sdk&apos; exited with code 1&apos;; Command output: adb.exe: device unauthorized.
+This adb server&apos;s $ADB_VENDOR_KEYS is not set
+Try &apos;adb kill-server&apos; if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+ 
+Host info: host: &apos;DESKTOP-EE4SE6R&apos;, ip: &apos;192.168.2.106&apos;
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
+Driver info: io.appium.java_client.AppiumDriver
+Command: [null, newSession {capabilities=[{appium:appActivity=com.example.jobtracking.MainActivity, appium:appPackage=com.example.jobtracking, appium:deviceName=OPPO A16e, appium:ignoreHiddenApiPolicyError=true, platformName=ANDROID, appium:platformVersion=11, appium:udid=7T49VGSC9LB6ZTVG}], desiredCapabilities=Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}}]
+Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
+	at com.appium.JobTracking1.Base.start(Base.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace515520300", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace515520300'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: &apos;Command &apos;D:\\Gowri_Backup\\Android\\cmdline-tools\\platform-tools\\adb.exe -P 5037 -s 7T49VGSC9LB6ZTVG shell getprop ro.build.version.sdk&apos; exited with code 1&apos;; Command output: adb.exe: device unauthorized.
+This adb server&apos;s $ADB_VENDOR_KEYS is not set
+Try &apos;adb kill-server&apos; if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+ 
+Host info: host: &apos;DESKTOP-EE4SE6R&apos;, ip: &apos;192.168.2.106&apos;
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
+Driver info: io.appium.java_client.AppiumDriver
+Command: [null, newSession {capabilities=[{appium:appActivity=com.example.jobtracking.MainActivity, appium:appPackage=com.example.jobtracking, appium:deviceName=OPPO A16e, appium:ignoreHiddenApiPolicyError=true, platformName=ANDROID, appium:platformVersion=11, appium:udid=7T49VGSC9LB6ZTVG}], desiredCapabilities=Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}}]
+Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
+	at com.appium.JobTracking1.Base.start(Base.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.appium.JobTracking1.Shipment@133e16fd</td></tr>
+<tr>
+<td title='com.appium.JobTracking1.Shipment.invalidLogin()'><b>invalidLogin</b><br>Test class: com.appium.JobTracking1.Shipment</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: &apos;Command &apos;D:\\Gowri_Backup\\Android\\cmdline-tools\\platform-tools\\adb.exe -P 5037 -s 7T49VGSC9LB6ZTVG shell getprop ro.build.version.sdk&apos; exited with code 1&apos;; Command output: adb.exe: device unauthorized.
+This adb server&apos;s $ADB_VENDOR_KEYS is not set
+Try &apos;adb kill-server&apos; if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+ 
+Host info: host: &apos;DESKTOP-EE4SE6R&apos;, ip: &apos;192.168.2.106&apos;
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
+Driver info: io.appium.java_client.AppiumDriver
+Command: [null, newSession {capabilities=[{appium:appActivity=com.example.jobtracking.MainActivity, appium:appPackage=com.example.jobtracking, appium:deviceName=OPPO A16e, appium:ignoreHiddenApiPolicyError=true, platformName=ANDROID, appium:platformVersion=11, appium:udid=7T49VGSC9LB6ZTVG}], desiredCapabilities=Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}}]
+Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
+	at com.appium.JobTracking1.Base.start(Base.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1416665097", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1416665097'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: &apos;Command &apos;D:\\Gowri_Backup\\Android\\cmdline-tools\\platform-tools\\adb.exe -P 5037 -s 7T49VGSC9LB6ZTVG shell getprop ro.build.version.sdk&apos; exited with code 1&apos;; Command output: adb.exe: device unauthorized.
+This adb server&apos;s $ADB_VENDOR_KEYS is not set
+Try &apos;adb kill-server&apos; if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+ 
+Host info: host: &apos;DESKTOP-EE4SE6R&apos;, ip: &apos;192.168.2.106&apos;
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
+Driver info: io.appium.java_client.AppiumDriver
+Command: [null, newSession {capabilities=[{appium:appActivity=com.example.jobtracking.MainActivity, appium:appPackage=com.example.jobtracking, appium:deviceName=OPPO A16e, appium:ignoreHiddenApiPolicyError=true, platformName=ANDROID, appium:platformVersion=11, appium:udid=7T49VGSC9LB6ZTVG}], desiredCapabilities=Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}}]
+Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
+	at com.appium.JobTracking1.Base.start(Base.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.appium.JobTracking1.Shipment@133e16fd</td></tr>
+<tr>
+<td title='com.appium.JobTracking1.Shipment.viewFunctionofJob()'><b>viewFunctionofJob</b><br>Test class: com.appium.JobTracking1.Shipment</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: &apos;Command &apos;D:\\Gowri_Backup\\Android\\cmdline-tools\\platform-tools\\adb.exe -P 5037 -s 7T49VGSC9LB6ZTVG shell getprop ro.build.version.sdk&apos; exited with code 1&apos;; Command output: adb.exe: device unauthorized.
+This adb server&apos;s $ADB_VENDOR_KEYS is not set
+Try &apos;adb kill-server&apos; if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+ 
+Host info: host: &apos;DESKTOP-EE4SE6R&apos;, ip: &apos;192.168.2.106&apos;
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
+Driver info: io.appium.java_client.AppiumDriver
+Command: [null, newSession {capabilities=[{appium:appActivity=com.example.jobtracking.MainActivity, appium:appPackage=com.example.jobtracking, appium:deviceName=OPPO A16e, appium:ignoreHiddenApiPolicyError=true, platformName=ANDROID, appium:platformVersion=11, appium:udid=7T49VGSC9LB6ZTVG}], desiredCapabilities=Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}}]
+Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
+	at com.appium.JobTracking1.Base.start(Base.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace74885833", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace74885833'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: &apos;Command &apos;D:\\Gowri_Backup\\Android\\cmdline-tools\\platform-tools\\adb.exe -P 5037 -s 7T49VGSC9LB6ZTVG shell getprop ro.build.version.sdk&apos; exited with code 1&apos;; Command output: adb.exe: device unauthorized.
+This adb server&apos;s $ADB_VENDOR_KEYS is not set
+Try &apos;adb kill-server&apos; if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+ 
+Host info: host: &apos;DESKTOP-EE4SE6R&apos;, ip: &apos;192.168.2.106&apos;
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
+Driver info: io.appium.java_client.AppiumDriver
+Command: [null, newSession {capabilities=[{appium:appActivity=com.example.jobtracking.MainActivity, appium:appPackage=com.example.jobtracking, appium:deviceName=OPPO A16e, appium:ignoreHiddenApiPolicyError=true, platformName=ANDROID, appium:platformVersion=11, appium:udid=7T49VGSC9LB6ZTVG}], desiredCapabilities=Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}}]
+Capabilities {appActivity: com.example.jobtracking.Mai..., appPackage: com.example.jobtracking, deviceName: OPPO A16e, ignoreHiddenApiPolicyError: true, platformName: ANDROID, platformVersion: 11, udid: 7T49VGSC9LB6ZTVG}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+	at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:80)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:92)
+	at com.appium.JobTracking1.Base.start(Base.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.appium.JobTracking1.Shipment@133e16fd</td></tr>
 </table><p>
 </body>
 </html>
